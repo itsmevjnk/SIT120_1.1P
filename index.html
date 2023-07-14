@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SIT120 1.1P - Thanh Vinh Nguyen (223145883)</title>
+        <style>
+            form {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+            }
+
+            .gb_buttons {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                margin: 3px 0;
+            }
+
+            .gb_buttons input {
+                margin: 0 3px;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Week 1 Assignment</h1>
+        </header>
+        <nav>
+            <div style="font-weight: bold;">Home</div>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <div>Quick links:</div>
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </nav>
+        <main>
+            <p>
+                <h2>Sample paragraph</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra magna nec ipsum convallis, ut placerat tellus tristique. Mauris tellus dolor, luctus sit amet finibus a, venenatis ut neque. Ut sed condimentum ipsum. Nulla fermentum lectus at leo egestas rhoncus. Morbi rhoncus nisl lacus, at ultricies velit tincidunt tempus. Donec bibendum, odio ac tempus euismod, urna sem imperdiet nisl, ut accumsan lorem massa quis ante. In tincidunt sapien ut tellus finibus pretium.
+            </p>
+            <p>
+                <h2>Checklist</h2>
+                <ul>
+                    <li><del>Add more CSS</del></li>
+                    <li>Add more content</li>
+                    <li>Upload to OnTrack</li>
+                </ul>
+            </p>
+            <p>
+                <h2>Guestbook</h2>
+                <form>
+                    <label for="gb_content">Type something to get it posted:</label>
+                    <textarea id="gb_content" name="gb_content" rows="4" cols="80"></textarea>
+                    <div class="gb_buttons">
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+                </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Timestamp</th>
+                            <th>Content</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023-14-07 12:12:05</d>
+                            <td>
+                                This is a test with longer text<br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra magna nec ipsum convallis, ut placerat tellus tristique. Mauris tellus dolor, luctus sit amet finibus a, venenatis ut neque. Ut sed condimentum ipsum. Nulla fermentum lectus at leo egestas rhoncus. Morbi rhoncus nisl lacus, at ultricies velit tincidunt tempus. Donec bibendum, odio ac tempus euismod, urna sem imperdiet nisl, ut accumsan lorem massa quis ante. In tincidunt sapien ut tellus finibus pretium.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2023-14-07 12:00:05</td>
+                            <td>This is a test of the guestbook</td>
+                        </tr>
+                        <tr>
+                            <td>2023-14-07 02:39:57</td>
+                            <td>Hello, World!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+        </main>
+        <footer>
+            <div class="author">
+                <img src="github-mark-white.png"/>
+                <div>Created by <a href="https://github.com/itsmevjnk">itsmevjnk</a></div>
+            </div>
+        </footer>
+    </body>
+</html>

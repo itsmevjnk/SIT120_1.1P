@@ -1,0 +1,71 @@
+.author {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.author div {
+    margin: 0 3px;
+}
+
+.author img {
+    width: 24px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav * {
+    flex: 1 1 0px;
+    text-align: center;
+    padding: 6px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #4287f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #42f5bf;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+footer {
+    background-color: #4287f5;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: white;
+}
